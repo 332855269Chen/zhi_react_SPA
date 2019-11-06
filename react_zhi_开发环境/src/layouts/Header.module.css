@@ -1,0 +1,15 @@
+.nav{width:100%; position:fixed; top:0;left:0; z-index:2; background:#fff;height:1rem}
+.nav ul{width:4.38rem;display:flex;justify-content: space-around;}
+.nav ul li{width:1.46rem;height:0.6rem;}
+.nav ul li a{ display:block;width:1.46rem;height:0.6rem; line-height:0.6rem; text-align:center; font-size:0.6rem; color:#9e9a95;font-weight: 500;margin-top:5px;}
+.nav ul li a.active{height:0.5rem; color:#5477b2;}
+
+
+
+.nav ul.shuju_haederUl{
+    /* position:"absolute";z-index:1000; */
+    display:block;
+    border:1px solid #000;
+width:99.9%;background:#fff;height:5rem}
+.shuju_activeli:hover{background:gray;}
+.nav ul.shuju_haederUl li.shuju_activeli{padding-left:1.5rem;display:block;width:100%;font-size:0.24rem;height:0.4rem}
